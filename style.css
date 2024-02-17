@@ -1,0 +1,50 @@
+* {
+    background-color: #1F2937;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white
+}
+
+h1 {
+    margin: 0;
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    padding-right: 8px;
+    padding-left: 32px;
+    padding-bottom: 16px;
+}
+
+.one {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+    align-content: center;
+}
+
+.nested {
+    margin-right: auto;
+    color: white;
+    flex-direction: column;
+}
+
+#pic {
+    margin-right: auto;
+}
