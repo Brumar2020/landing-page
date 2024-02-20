@@ -1,5 +1,4 @@
 * {
-    background-color: #1F2937;
     text-decoration: none;
 }
 
@@ -10,16 +9,31 @@ a {
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    height: 100vh;
 }
+
 
 button {
     background-color: #3882F6;
     border: none;
-    color: white
+    color: white;
+    height: 30px;
+    width: 80px;
+    font-size: 17px;
+    border-radius: 5px;
 }
 
 h1 {
     margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.body {
+    flex: 1;
 }
 
 .header {
@@ -27,24 +41,108 @@ h1 {
     display: flex;
     justify-content: end;
     gap: 16px;
-    padding-right: 8px;
-    padding-left: 32px;
-    padding-bottom: 16px;
+    padding: 8px 8px 24px 32px;
+    background-color: #1F2937;
+    margin: 0;
 }
 
 .one {
     display: flex;
     justify-content: end;
-    flex: 1;
     align-content: center;
+    padding-right: 8px;
+    padding-bottom: 16px;
+    background-color: #1F2937;
+}
+
+.two {
+    display: flex;
+    background-color: hwb(210 83% 16%);  
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 24px 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.small {
+    display: flex;
+    justify-content: space-around;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    background-color: hwb(210 83% 16%);  
+    padding: 24px 64px;
+    text-align: center;
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
 }
 
 .nested {
     margin-right: auto;
     color: white;
     flex-direction: column;
+    padding-left: 32px;
+    padding-right: 128px;
+}
+
+.four {
+    display: flex;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 48px 80px; 
+}
+
+.left {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    flex-direction: column;
+    margin: auto;
+}
+
+.right {
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+.top {
+    display: flex;
+}
+
+.bottom {
+    display: flex;
+}
+
+.footer {
+background-color: #1F2937;
+color:  white;
+justify-content: center;
+}
+
+.click {
+    border: solid;
+    border-color: #1F2937;
 }
 
 #pic {
     margin-right: auto;
+}
+
+#yuh {
+    border: solid;
+    border-color: white;
 }
